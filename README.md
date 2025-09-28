@@ -1,6 +1,6 @@
 # 📊 tracing-lib
 
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![Poetry](https://img.shields.io/badge/poetry-dependency%20management-blue.svg)
 ![Langfuse](https://img.shields.io/badge/langfuse-observability-green.svg)
 
