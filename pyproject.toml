@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tracing-lib"
+version = "0.1.0"
+description = "Wrapper para Langfuse (observabilidade de LLMs)"
+
+authors = ["Logan Cardoso <logan.cc@outlook.com>"]
+readme = "README.md"
+packages = [
+    { include = "tracing_lib" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langfuse = "^3.5.1"
+pydantic = "^2.11.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
